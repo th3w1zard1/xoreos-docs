@@ -1,0 +1,54 @@
+site_name: xoreos documentation
+site_description: Reverse-engineering resources for BioWare's Aurora engine titles and related tooling.
+site_url: https://th3w1zard1.github.io/xoreos-docs/
+repo_name: th3w1zard1/xoreos-docs
+repo_url: https://github.com/th3w1zard1/xoreos-docs
+site_dir: site
+
+docs_dir: docs
+
+nav:
+  - Overview: index.md
+  - File specifications: specs.md
+  - 010 Editor templates: templates.md
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: indigo
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.highlight
+  - pymdownx.superfences
