@@ -29,12 +29,15 @@ theme:
     - scheme: default
       primary: deep purple
       accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     - scheme: slate
       primary: deep purple
       accent: lime
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/weather-sunny
+        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
 
