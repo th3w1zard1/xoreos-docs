@@ -2,3 +2,6 @@
 .sw[po]
 .*.sw[po]
 *~
+
+# MkDocs build output
+site/
